@@ -1,0 +1,44 @@
+.hero{
+    padding-inline: 20px;
+    /* display: flex; */
+    padding-block: 150px;
+    display: grid;
+    row-gap: 40px;
+}
+
+.hero h1{
+    font-size: 55px;
+    color: var(--color-blue-900);
+}
+.hero p{
+    margin-block: 20px 30px;
+}
+
+.button.pink{
+    display: inline-block;
+    background-color: var(--color-blue-900);
+    color: var(--color-white);
+    font-size: 20px;
+    padding: 12px 32px;
+    border-radius: 28px;
+    cursor: pointer;
+    transition: background 150ms ease-in-out;
+    margin: 0px 10px 0px 10px;
+}
+
+.button.pink:hover{
+    background-color: var(--color-blue-600);
+}
+
+@media (width >= 50.625em) {
+.hero{
+    grid-template-columns: repeat(2, 1fr);
+   
+}
+.hero__text{
+    padding-inline-end: 0;
+}
+
+
+}
+

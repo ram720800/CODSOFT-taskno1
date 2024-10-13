@@ -1,0 +1,44 @@
+:root{
+   --color-blue-900: hsl(233,54%,16%);
+   --color-blue-600: hsl(234,25%,52%);
+   --color-pink-600: hsl(341,92%,62%);
+   --color-pink-300: hsl(341,100%,83%);
+   --color-grey: hsl(232,10%,56%);
+   --color-white: hsl(0,0%,100%);
+   --gradient-pink: linear-gradient(hsl(322,87%,55%),hsl(13,100%,64%));
+   --gradient-purple: linear-gradient(hsl(237, 43%, 55%),hsl(322,87%,55%));
+   --gradient-grey: linear-gradient(hsl(180, 0%, 50%),hsl(180,0%,100%));
+}
+
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Plus Jakarta Sans, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin: 0;
+}
+
+h1,h2,h3{
+    line-height: 1.2;
+    margin: 0;
+    font-weight: 800;
+}
+
+img{
+    display: block;
+    max-width: 100%; /*img will not over flow */
+    height: auto;    /*to maintain crt ratio */
+}
+
+li,a{
+    list-style-type: none;
+    text-decoration: none;
+}
+p{
+    color: var(--color-grey);
+    font-weight: 500;
+    line-height: 1.5;
+    max-width: 50ch;
+}

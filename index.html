@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/css/style.css">
+    <title>College Hub</title>
+</head>
+<body>      
+     <header>
+            <ul class="nav-links-side side-bar">
+                <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Community</a></li>
+                <li><a class="button-side" href="#">Login</a></li>
+                <li><a class="button-side" href="#">SignUp</a></li>
+            </ul>
+
+   <div class="header">
+        <div class="logo-name">
+          <img class="logo" src="/image/school.png" alt="logo" width="50px" height="50px">
+          <span class="name">College Hub</span>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a class="hideOnMobile" href="#home">Home</a></li>
+                <li><a class="hideOnMobile" href="#about">About</a></li>
+                <li><a class="hideOnMobile" href="#community">Community</a></li>
+            </ul>
+        </nav>
+        <nav>
+          <a class="button black hideOnMobile" href="#">Login</a>
+          <a class="button black hideOnMobile" href="#">SignUp</a>
+          <a class="menu-button" onclick="showSidebar()" href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+        </nav>
+        
+    </div>
+    </header>
+
+    <main>
+        <section class="hero" id="about">
+            <div class="hero__text">
+                <h1>Maximize your skills, Connect with peers</h1>
+                <p>Our web lets you connect with peers and build a strong community in your college, reaching out to like-minded people. Make sure to hit the connect button</p>
+                <a href="" class="button pink">Connect</a>
+            </div>
+
+            <picture>
+                <source media="(75em)" srcset="image/clgCode.jpg" width="2029" heigth="1876">
+                <source media="(50em)" srcset="image/clgCode.jpg" width="695" heigth="723">
+                <img src="image/clgCode.jpg" alt="clgCode" width="870" height="818">
+            </picture>
+        </section>
+
+        <section class="content" id="community">
+            
+            <div class="block title">
+               <h2>Check out peers achivements by connecting</h2>
+            </div>
+
+            <div class="block app">
+                <img src="image/linkedin.svg" alt="linkedin" width="48px" height="48px">
+                <h3>linkedin</h3>
+                <p>Connect with peers on linkedin a business and employment-focused social media platform </p>
+                <a href="">Connect</a>
+            </div>
+
+            <div class="block app">
+                <img src="image/twitterx.svg" alt="X" width="48px" height="48px">
+                <h3>X</h3>
+                <p>Connect with peers on X a business and one of the world's largest social media websites </p>
+                <a href="">Connect</a>
+            </div>
+
+            <div class="block title">
+                <h2>Join our college community by enrolling</h2>
+             </div>
+
+            <div class="block app">
+                <img src="image/crypto.svg" alt="Crypto" width="48px" height="48px">
+                <h3>Web3</h3>
+                <p>Crypto Geeks</p>
+                <p>a concept for a new version of the internet that uses blockchain</p>
+                <a href="">Connect</a>
+            </div>
+
+            <div class="block app">
+                <img src="image/dev.svg" alt="dev" width="48px" height="48px">
+                <h3>Web Development</h3>
+                <p>Coding Nerds</p>
+                <p>evolution of the World Wide Web after 2000</p>
+                <a href="">Connect</a>
+            </div>
+            
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+        <div>
+            <img src="/image/footyoutube.svg" alt="YT" width="30px" height="30px">
+        </div>
+        <div>
+            <img src="/image/footinstagram.svg" alt="Insta" width="30px" height="30px">
+        </div>
+        <div>
+            <img src="/image/footfacebook.svg" alt="FB" width="30px" height="30px">
+        </div>
+        <div>
+            <img src="/image/footX.svg" alt="X" width="30px" height="30px">
+        </div>
+        <div>
+            <img src="/image/Footlinkedin.svg" alt="in" width="30px" height="30px">
+        </div>
+        </div>
+        <div class="me">made with &#9829;, ram72</div>
+    </footer>
+    
+    <script src="index.js"></script>
+</body>
+</html>
